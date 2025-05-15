@@ -1,0 +1,15 @@
+{
+  "name": "assignment1npm",
+  "version": "1.0.0",
+  "description": "Atividade basica nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Lucas Vieira de Souza",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

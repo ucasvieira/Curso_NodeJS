@@ -1,0 +1,13 @@
+<%- include('./includes/head.ejs') %>
+</head>
+<%- include('./includes/nav.ejs') %>
+    <main>
+        <ul>
+            <% users.forEach(user => { %>
+                <li>
+                    <%= user.name %>
+                </li>
+            <% }) %>
+        </ul>
+    </main>
+<%- include('./includes/end.ejs') %>
